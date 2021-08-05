@@ -1,10 +1,10 @@
-# AutoInland-Vehicle-Insurance-Claim-Challenge
+# CommonLit Readability Prize
 
 ## Introduction
 
 | Title | Text |
 | ------ | ------ |
-| Intro | In 2021 during three months, Nigerian car insurance company held a competition in African data science competition platform called `Zindi`. In this competition the organizer wanted to know _wheter or not a client will submit a vehicle insurance claim in the next 3 months_. In this competition 600+ competitors participated. |
+| Intro | Can machine learning identify the appropriate reading level of a passage of text, and help inspire learning? Reading is an essential skill for academic success. When students have access to engaging passages offering the right level of challenge, they naturally develop reading skills. Currently, most educational texts are matched to readers using traditional readability methods or commercially available formulas. However, each has its issues. Tools like Flesch-Kincaid Grade Level are based on weak proxies of text decoding (i.e., characters or syllables per word) and syntactic complexity (i.e., number or words per sentence). As a result, they lack construct and theoretical validity. At the same time, commercially available formulas, such as Lexile, can be cost-prohibitive, lack suitable validation studies, and suffer from transparency issues when the formula's features aren't publicly available. |
 | Data | The dataset consisted of Train == 12000, Test == 1200, Sample_Submition, Nigerian_State_LGA_Name. |
 | Metrics | F1_score for evaluating our algorithm.|
 | ML Task | Binary Classification task.|
