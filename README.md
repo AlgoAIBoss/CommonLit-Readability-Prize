@@ -12,12 +12,12 @@
 
 ## Problems
 
-1. The dataset was unbalanced.
-2. It had missing values in some columns.
-3. `Age` column had outliers.
-4. Despite distinct IDs duplicated rows existed.
-5. State and LGA column names were incorrect.
-6. Some duplicated rows had different target.
+1. id - unique ID for excerpt
+2. url_legal - URL of source - this is blank in the test set.
+3. license - license of source material - this is blank in the test set
+4. excerpt - text to predict reading ease of
+5. target - reading ease
+6. standard_error - measure of spread of scores among multiple raters for each excerpt. Not included for test data.
 
 
 ## Solved
